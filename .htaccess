@@ -1,0 +1,7 @@
+RewriteEngine On
+
+ErrorDocument 404 /MSproject/404/index.php
+
+RewriteBase /MSproject/
+
+RewriteRule ^(.*)index\.php$ $1 [R=301,L]
